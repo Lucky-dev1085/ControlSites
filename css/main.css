@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:ital,wght@0,300;1,200&display=swap');
+
+@media (min-width: 1600px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1540px;
+  }
+}
+.natural-left {
+  float: left;
+}
+
+.natural-middle {
+  text-align: center;
+}
+
+.natural-right {
+  float: right;
+}
+
+#dark-nav-bar {
+  background: #424242;
+  width: 100%;
+  height: 50px;
+}
+
+#nav-bar-title {
+  font-family: 'Roboto Mono', monospace;
+  font-style: italic;
+  color: white;
+  font-size: 23px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+#notification, #delete-db {
+  line-height: 50px;
+  vertical-align: middle;
+  color: lightgray;
+  font-size: 25px;
+}
+
+#notification:hover, #delete-db {
+  cursor: pointer;
+}
+
+#log-out {
+  font-family: 'Roboto Mono', monospace;
+  font-style: italic;
+  color: white;
+  font-size: 16px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+#log-out:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.surface {
+  width: 100%;
+  background: #212121;
+  height: 100vh;
+}
+
+.surface-widget {
+  background: #424242;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  overflow: hidden;
+  border-bottom: 3px solid #e619df;
+}
+
+.widget-title {
+  color: lightgray;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.widget-data {
+  font-size: 40px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.widget-icon {
+  font-size: 80px;
+  float: right;
+  margin-top: -35px;
+  color: #353535;
+}
+
+.table-row {
+  background: #424242;
+  padding: 10px;
+}
+
+.alternate-row {
+  background: #343434;
+}
+
+/* Controls Table Margin for Mobile */
+@media (max-width:991px)  { .table { margin-top: 15px; } }
+
+.table-header {
+  font-family: 'Poppins', sans-serif;
+  color: lightgray;
+}
+
+.online-alert {
+  color: white;
+  background: green;
+  padding: 3px;
+  border-radius: 5px;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.offline-alert {
+  color: white;
+  background: red;
+  padding: 3px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.action-btn {
+  color: white;
+  background: #e619df;
+  border: none;
+  width: 100%;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.table-cell-text {
+  color: white;
+  vertical-align: middle;
+}
+
+.flashit{
+  color:#f2f;
+  -webkit-animation: flash linear 1s infinite;
+  animation: flash linear 1.5s infinite;
+}
+
+@-webkit-keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: .1; }
+  100% { opacity: 1; }
+}
+
+@keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: .1; }
+  100% { opacity: 1; }
+}
+
+.animate {
+  transition: all 0.2s;
+  transform: scale(1.05);
+}

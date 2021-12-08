@@ -1,0 +1,48 @@
+.success1 {
+  background: blue !important;
+}
+
+.login {
+  width: 100%;
+  background: #434343;
+  padding: 15px;
+  margin-top: 150px;
+}
+
+.admin-form {
+  background: #666666;
+  border: none;
+  color: lightgray !important;
+}
+
+.admin-form:focus {
+  border: none;
+  outline: none;
+  background: #777777;
+}
+
+.admin-form:active {
+  border: none;
+  outline: 0px !important;
+  background: #777777;
+}
+
+.form-title {
+  font-family: 'Poppins', sans-serif;
+  color: lightgray;
+  font-size: 25px;
+}
+
+.form-caption {
+  color: lightgray;
+  margin-top: 10px;
+}
+
+.admin-submit {
+  width: 100%;
+  background: #777777;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 2px;
+}
